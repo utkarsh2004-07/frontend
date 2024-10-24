@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    
-    
-    "start": "node index.js",
-    "build": "webpack"
-    
-
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A backend service for my fullstack application",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
