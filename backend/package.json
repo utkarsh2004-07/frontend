@@ -5,9 +5,9 @@
   "scripts": {
     
     
-    "dev": "node index.js",
-    "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "node index.js",
+    "build": "webpack"
+    
 
   },
   "keywords": [],
